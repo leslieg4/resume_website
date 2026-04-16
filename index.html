@@ -1,1 +1,227 @@
+<!DOCTYPE html>
+<html lang "en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Leslie Garcia - Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
 
+<body>
+
+    <nav>
+        <div class="nav-logo">&lt;<span>LG</span>/&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#about"></a><span class="hash">#</span>About</a></li>
+            <li><a href="#projects"></a><span class="hash">#</span>Projects</a></li>
+            <li><a href="#skills"></a><span class="hash">#</span>Skills</a></li>
+            <li><a href="#contact"></a><span class="hash">#</span>Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-prompt">
+            <span class="prompt-path">&gt;_ ~/portfolio</span>
+            <span class="prompt-dollar"> $ </span>
+            <span class="prompt-cmd" id="typewriter"></span><span id="cursor">█</span>
+        </div>
+
+        <h1 class="hero-name">Leslie Garcia</h1>
+
+        <div class="hero-role">Software Engineer</div>
+
+        <p class="hero-bio">
+            Passionate about clean code, great user experience and solving complex issues.
+        </p>
+        <div class="hero-button">
+            <a href="#projects" class="btn bttn-solid">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+
+        <div class="hero-socials">
+            <a href="https://github.com/leslieg4" title="GitHub">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+            </a>
+            <a href="https://linkedin.com/in/lesliegarcia4" title="LinkedIn">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                    <rect x="2" y="9" width="4" height="12"/>
+                    <circle cx="4" cy="4" r="2"/>
+                </svg>
+            </a>
+            <a href="mailto:leslie.gar86@gmail.com" title="Email">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="reveal">
+            <div class="section-label">// 01 - about</div>
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+            <div class="section-rule"></div>
+        </div>
+        <div class="about-grid reveal">
+            <div class="about-text">
+                <p>Hi there! I'm <span class="h1">Leslie Garcia</span>, a software engineering student who loves turning ideas into real, working things. 
+                    I care about writing clean, maintainable code that other people can understand.</p>
+                <p>I'm comfortable across the stack - building REST APIs, designing database schemas, or polishing a frontend UI. I aim to sit at the 
+                    intersection of <span class="h1">good engineering and good design</span>.</p>
+                <p>Currently looking for <span class="h1">software engineering internships</span> where I can contribute meaningfully, learn fast, and be around a great team.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-card-heading">// profile.json</div>
+                <div class="info-row">
+                    <span class="info-key">name</span>
+                    <span class="info-val">"Leslie Garcia"</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-key">role</span>
+                    <span class="info-val">"SWE Intern"</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-key">location</span>
+                    <span class="info-val">"San Francisco"</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-key">degree</span>
+                    <span class="info-val">"B.S. Computer Science"</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-key">university</span>
+                    <span class="info-val">"San Francisco State University"</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-key">status</span>
+                    <span class="info-val online">"looking for internship opportunites and open to work" ●</span>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- My SKills-->
+    <section id="skills">
+        <div class="reveal">
+            <div class="section-label">// 02 — skills</div>
+            <h2 class="section-title">Tech <span class="accent">Stack</span></h2>
+            <div class="section-rule"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-cat">Languages</div>
+                <div class="skill-tags">
+                    <span class="tag">C++</span><span class="tag">JavaScript</span>
+                    <span class="tag">Python</span><span class="tag">Java</span>
+            </div>
+        </div>
+        <div class="skill-card reveal">
+            <div class="skill-cat">Frontend</div>
+            <div class="skill-tags">
+                <span class="tag">React</span><span class="tag">Next.js</span>
+                <span class="tag">HTML</span><span class="tag">CSS</span>
+            </div>
+        </div>
+        <div class="skill-card reveal">
+            <div class="skill-cat">Backend</div>
+            <div class="skill-tags">
+                <span class="tag">Node.js</span><span class="tag">Express</span>
+            </div>
+        </div>
+        <div class="skill-card reveal">
+            <div class="skill-cat">Tools</div>
+            <div class="skill-tags">
+                <span class="tag">Git</span><span class="tag">Docker</span>
+                <span class="tag">AWS</span><span class="tag">Linux</span>
+                <span class="tag">VS Code</span>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- My Projects -->
+  <section id="projects">
+        <div class="reveal">
+            <div class="section-label">// 03 — projects</div>
+            <h2 class="section-title">Featured <span class="accent">Work</span></h2>
+            <div class="section-rule"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-num">PRJ-001</div>
+                <div class="project-name">Project 1</div>
+                <p class="project-desc">A full-stack web app that solves a real problem. Describe what it does, who uses it, and what makes it technically interesting.</p>
+                <div class="project-footer">
+                    <div class="stack-tags">
+                        <span class="stack-tag">React</span><span class="stack-tag">Node.js</span><span class="stack-tag">PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-num">PRJ-002</div>
+                <div class="project-name">Project 2</div>
+                <p class="project-desc">.</p>
+                <div class="project-footer">
+                    <div class="stack-tags">
+                        <span class="stack-tag">Python</span><span class="stack-tag">FastAPI</span><span class="stack-tag">Docker</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-num">PRJ-003</div>
+                <div class="project-name">Project 3</div>
+                <p class="project-desc">.</p>
+                <div class="project-footer">
+                    <div class="stack-tags">
+                        <span class="stack-tag">TypeScript</span><span class="stack-tag">Next.js</span><span class="stack-tag">AWS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+        <div class="reveal">
+            <div class="section-label">// 04 — contact</div>
+            <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+            <div class="section-rule"></div>
+        </div>
+        <div class="contact-inner reveal">
+            <p class="contact-text">I'm actively looking for software engineering internships and new grad roles. 
+                Whether you have an opportunity, a project idea, or just want to connect — reach out!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:leslie.gar86@gmail.com" class="contact-chip">Email</a>
+                <a href="https://linkedin.com/in/lesliegarcia4" class="contact-chip">LinkedIn</a>
+                <a href="https://github.com/leslieg4" class="contact-chip">GitHub</a>
+                <a href="#" class="contact-chip">Resume PDF</a>
+            </div>
+            <a href="mailto:leslie.gar86@gmail.com" class="btn btn-solid">Say Hello →</a>
+        </div>
+  </section>
+
+  <footer>
+    <span class="footer-logo">&lt;<span>LG</span>/&gt;</span>
+    <span class="footer-copy">Built by Leslie Garcia * 2025</span>
+  </footer>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
