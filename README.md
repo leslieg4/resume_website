@@ -2,6 +2,6 @@
 A website that showcases my resume using HTML, CSS, and JavaScript
 
 /resume_website
-├── index.html
-├── index.css
-├── index.js
+|-- index.html
+|-- index.css
+|-- index.js
