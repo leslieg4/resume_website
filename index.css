@@ -1,19 +1,19 @@
 /* CSS Custom Properties */
 :root {
-    --bg:         #0d1117;
-    --bg-surface: #161b22;
-    --bg-card:    #1c2128;
-    --border:     #30363d;
-    --border-hover: #58a6ff;
+    --bg:         #fff0f5;
+    --bg-surface: #ffe4ee;
+    --bg-card:    #ffffff;
+    --border:     #f0cfdc;
+    --border-hover: #b39ddb;
  
-    --text-primary:   #e6edf3;
-    --text-secondary: #8b949e;
-    --text-muted:     #484f58;
+    --text-primary:   #3d2c3e;
+    --text-secondary: #7a6277;
+    --text-muted:     #85707f;
  
-    --accent:     #58a6ff;
-    --accent-dim: #1f3a5f;
-    --green:      #3fb950;
-    --pink:       #f78166;
+    --accent:     #7b57b0;
+    --accent-dim: #e9defa;
+    --green:      #5a8466;
+    --pink:       #e87a9f;
  
     --font-mono: 'Share Tech Mono', monospace;
     --font-sans: 'Space Grotesk', sans-serif;
@@ -90,7 +90,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
-    background: rgba(13, 17, 23, 0.85);
+    background: rgba(255, 240, 245, 0.85);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
 }
@@ -206,12 +206,12 @@ nav {
  
 .btn-solid {
     background: var(--accent);
-    color: #0d1117;
+    color: #ffffff;
     font-weight: 600;
 }
  
 .btn-solid:hover {
-    background: #79b8ff;
+    background: #9370c9;
     transform: translateY(-1px);
 }
  
@@ -314,7 +314,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 7px 0;
-    border-bottom: 1px solid rgba(48, 54, 61, 0.5);
+    border-bottom: 1px solid rgba(240, 207, 220, 0.5);
     gap: 16px;
 }
  
@@ -386,7 +386,7 @@ nav {
     font-size: 0.78rem;
     padding: 4px 10px;
     border-radius: 3px;
-    border: 1px solid rgba(88, 166, 255, 0.2);
+    border: 1px solid rgba(123, 87, 176, 0.25);
 }
 
 /* Projects */
